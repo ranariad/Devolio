@@ -1,0 +1,348 @@
+body
+{
+    background-color: #f5f5f5;
+}
+
+nav
+{
+    width: 100%;
+}
+
+.navbar-brand
+{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item
+{
+    
+    padding-right: 15px;
+
+}
+
+.navbar-nav .nav-item .nav-link
+{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+}
+
+.navbar-nav .active .nav-link::after 
+
+{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 35px;
+    background-color: #FFF;
+    top: 40px;
+    bottom: 0;
+    left: 9px;
+    transition: 0.3s ease-in;
+}
+
+.navbar-dark .navbar-nav .nav-item:hover  .nav-link::after
+{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 35px;
+    background-color: #FFF;
+    top: 40px;
+    bottom: 0;
+    left: 9px;
+    transition: 0.3s ease-in;
+}
+
+.navbar-dark .navbar-nav .nav-item:hover .nav-link
+{
+    color: #FFF;
+}
+
+
+
+
+
+
+header
+{
+    background: url(../imgs/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: #FFF;
+}
+
+.overlay
+{
+    background-color: rgba(0, 0, 0,0.6);
+    width: 100%;
+    height: 100%;
+}
+
+header .overlay  .bannar-wrapper
+{
+    height:100% !important
+}
+.type
+{
+    font-size: 40px;
+}
+
+/* about section */
+
+.about
+{
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+
+.box-shadow-full
+{ 
+    background-color: #FFF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 80px 60px
+}
+
+
+.about-img
+{
+    margin-bottom: 40px;
+}
+
+.about-info-wrapper
+{
+    margin-bottom: 8px;
+}
+
+.title-span
+{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.progress
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* services */
+
+.servic-box
+{
+    background-color: #FFF;
+    margin-top: 60px;
+    padding: 30px 15px;
+    border-radius: 20px;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    transition: all 3s ease-in;
+}
+
+.servic-box:hover .service-icon
+{
+    background-color: #0078ff;
+    border: 10px solid #91c3fd;
+    color: #FFF;
+
+}
+
+.service-icon
+{
+    font-size: 60px;
+    border: 10px solid #0078ff;
+    border-radius: 50%;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+/* counter */
+.counter
+{
+    background: url(../imgs/counters-bg.jpg) no-repeat center center ;
+    background-size: cover;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+
+}
+
+ .overlay-2
+{
+    width: 100%;
+    height: 100%;
+    background-color: #0078ff;
+    opacity: 0.7;
+    padding: 150px 0;
+} 
+
+.counter-box
+{
+    color: #FFF;
+}
+
+.counter-icon
+{
+    font-size: 30px;
+    border: 10px solid;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.counter-box p 
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.work-box
+{
+    background-color: #FFF;
+    margin-top: 60px;
+    
+}
+
+.work-content
+{
+    margin-top: 30px;
+    padding: 20px 0px;
+}
+.work-content .custom-span
+{
+    color: #0078ff;
+}
+.icon-plus
+{
+    font-size: 22px;
+    border: 1px solid #0078ff;
+    border-radius: 50%;
+    color: #0078ff;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/* testimonial section */
+
+.testimonial
+{
+    background: url(../imgs/overlay-bg.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    
+}
+
+.overlay-2
+{
+}
+
+.carousel-item
+{
+    color: #FFF;
+}
+.carousel-item h5
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+.carousel-item p
+{
+    padding: 0 13rem;
+}
+
+.carousel-item i
+{
+    font-size: 30px;
+    background-color: #FFF;
+    color: #0078ff;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+.carousel-indicators
+{
+    bottom: -32px;
+}
+
+/* blog setion */
+
+.blog
+{
+    margin-bottom: 100px;
+}
+.card-footer img
+{
+    width: 32px;
+    border-radius: 50%;
+}
+
+.card-footer i 
+{
+    font-size: 17px;
+}
+
+.card-footer .card-time
+{
+    font-size: 17px;
+
+}
+
+/* contact section */
+.contact
+{
+    background: url(../imgs/overlay-bg.jpg) no-repeat center center fixed;
+}
+
+.overlay-2
+{
+    padding: 200px 0;
+
+}
+
+.contact-box
+{
+    background-color: #FFF;
+    padding: 20px;
+}
+
+.contact-box ul
+{
+    list-style: none;
+    padding: 0;
+}
+
+
+.contact-box ul i
+{
+    color: #0078ff;
+    margin-right: 10px;
+}
+
+.icons-contact
+{
+    margin-top: 40px;
+}
+
+.icons-contact span 
+{
+    border: 3px solid #0078ff;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.icons-contact span i 
+{
+    font-size: 22px;
+
+}
